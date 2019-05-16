@@ -1,0 +1,8 @@
+<h1>What is your question ?</h1>
+
+<form action="answer">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="text" name="question" placeholder="What are you up to ?">
+
+  <input type="submit" value="Ask !">
+</form>
